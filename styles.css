@@ -1,0 +1,62 @@
+#caption {
+    height: 970px;
+    background-image: url("/images//main/core-iamge.jpg");
+    background-position: 0 0%;
+    background-repeat: no-repeat;
+    position: relative;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 125%;;
+}
+
+#caption-content {
+    width: 800px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(67,67,67);
+    border-radius: 20px;
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+
+#caption-content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 50px;
+}
+
+#highlights h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0;
+}
+#schools{
+    display: flex;
+    width:90%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.schools{
+    margin: 0 20px;
+}
+
+.schools img{
+    height: 200px;
+    width:100%;
+    box-shadow: 2px 4px 8px rgba(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#highlights{
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(235, 227, 128))
+}
