@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(30deg, rgb(77,77,77), rgb(58, 58, 58));
+    color: rgb(68, 68, 68);
+}
+
+header{
+    position: static;
+    background: rgb(97, 64, 2);
+
+}
+main{
+    height: 800px;
+}
+main ul {
+    width: 1200px;
+    margin: 150px auto 48px auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 20px 20px;
+    
+}
+
+.about-container{
+    font-size: 65px;
+}
+
+.about-heading{
+    font-size: 75px;
+    text-align: center;
+    margin: 10px;
+    font-family: Quicksand;
+}
+
+.about-us{
+    font-size: 25px;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.about-us a{
+    text-decoration: none;
+    color: rgb(15, 143, 155);
+    padding-right: 10px;
+}
+
+
+
+main ul li{
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0,0,0, 0.2);
+    border-radius: 55px;
+    overflow: hidden;
+}
+
+
+
